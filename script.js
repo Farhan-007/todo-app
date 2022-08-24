@@ -2,6 +2,8 @@ const divList = document.querySelector('.listHolder');
 const addInput = document.querySelector('#addInput');
 const addBtn = document.querySelector('#addBtn');
 const closeBtn = document.querySelector('#close');
+const listUl = document.querySelector('.list');
+const lis = listUl.children;
 
 function addLists() {
     if (addInput.value === '') {
